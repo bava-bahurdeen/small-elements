@@ -64,6 +64,12 @@ body{
     padding: 20px 0px;
     margin-top: 20px;
 }
+.file-icon>img{
+    width: 30px;
+}
+.completed>img{
+    width: 30px;
+}
 
 .file-upload>input::-webkit-file-upload-button{
  visibility: hidden;
@@ -114,6 +120,9 @@ padding: 30px 16px;
     border: 2px dashed  var(--grey);
     padding: 15px 90px;
     text-align: center;
+}
+.box-content>.image>img{
+    width: 30px;
 }
 .flex{
     display: flex;
